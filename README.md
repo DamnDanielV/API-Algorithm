@@ -10,7 +10,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 cd API-algorithm/
-pip3 install -r requirements.txt
+pip3 install -r kiwi/requirements.txt
 python3 manage.py runserver
 ```
 
