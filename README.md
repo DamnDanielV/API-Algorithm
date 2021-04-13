@@ -4,18 +4,17 @@ API service for an algorithm which finds the index number at which the left and 
 
 ## Usage
 
-Clone this repository, set up your environment and after execute the next commands
+Use the nexts command:
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
+git clone https://github.com/DamnDanielV/API-Algorithm
 cd API-algorithm/
-pip3 install -r kiwi/requirements.txt
-python3 manage.py runserver
+docker-compose up
 ```
 
 ## Unit test
 
 ```bash
-python3 manage.py test
+docker-compose run --publish 8080:80 -p 2022:22 -p 127.0.0.1:2021:21 web python manage.py test
 ```
